@@ -1,0 +1,30 @@
+{
+  "name": "projeto-labenu-system",
+  "version": "1.0.0",
+  "description": "Projeto do Sistema interno da Labenu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/index.ts",
+    "build": "tsc && node ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/future4code/turing-labenu-system1.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Diego Miyabara, Luiz Bombonatti e Vinicius Fredeanelle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/future4code/turing-labenu-system1/issues"
+  },
+  "homepage": "https://github.com/future4code/turing-labenu-system1#readme",
+  "dependencies": {
+    "@types/node": "13.7.7",
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  }
+}
