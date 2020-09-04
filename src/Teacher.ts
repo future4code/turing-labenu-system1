@@ -2,6 +2,7 @@ import {User} from './User'
 import { FileManager } from './FileManager'
 
 export enum TEACHER_SPECIALTY {
+    //obriga a escolher uma das opções abaixo nas especialidades do professor.
     REACT = "REACT",
     REDUX = "REDUX",
     CSS = "CSS",
@@ -22,21 +23,5 @@ export class Teacher implements User {
         this.name = name,
         this.email = email,
         this.specialties = specialties
-        
     }
-
-    public writeToData(): void {
-        const fm = new FileManager("teachers.json");
-        const data = fm.readFile()
-        const newTeacher = {
-            id: this.id,
-            name: this.name,
-            email: this.email,
-            specialties: this.specialties
-        }
-        const teachers = [...data, newTeacher]
-        fm.writeFile(teachers)
-    }
-
-
 }

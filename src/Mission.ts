@@ -20,7 +20,7 @@ export abstract class Mission {
         return this.id;
     }
 
-    public getName(name: string): string {
+    public getName(): string {
         return this.name;
     }
 
@@ -50,5 +50,9 @@ export abstract class Mission {
 
     public setCurrentModule(module: number): void {
         this.currentModule = module
+    }
+
+    public getStudents(): Student[] {
+        return this.students
     }
 }
