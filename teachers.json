@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "id": "a1",
+    "name": "Mateus",
+    "email": "mateus@gmail.com",
+    "specialties": [
+      "BACKEND",
+      "TYPESCRIPT"
+    ]
+  }
+]

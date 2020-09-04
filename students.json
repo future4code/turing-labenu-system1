@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "id": "b2",
+    "name": "Vinicius",
+    "email": "vini@gmail.com",
+    "hobbies": [
+      "loops infinitos",
+      "jogar fifa"
+    ]
+  },
+  {
+    "id": "c3",
+    "name": "Diego",
+    "email": "diego@gmail.com",
+    "hobbies": [
+      "jogar valorant",
+      "viajar",
+      "conhecer novas culturas"
+    ]
+  }
+]
