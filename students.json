@@ -1,8 +1,19 @@
 [
   {
+    "id": "d4",
+    "name": "Luiz",
+    "email": "luiz@gmail.com",
+    "birthDate": "1996-08-21T03:00:00.000Z",
+    "hobbies": [
+      "cantar um rap",
+      "jogar cs"
+    ]
+  },
+  {
     "id": "b2",
     "name": "Vinicius",
     "email": "vini@gmail.com",
+    "birthDate": "2000-10-23T02:00:00.000Z",
     "hobbies": [
       "loops infinitos",
       "jogar fifa"
@@ -12,6 +23,7 @@
     "id": "c3",
     "name": "Diego",
     "email": "diego@gmail.com",
+    "birthDate": "1990-06-28T03:00:00.000Z",
     "hobbies": [
       "jogar valorant",
       "viajar",

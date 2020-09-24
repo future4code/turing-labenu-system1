@@ -7,5 +7,14 @@
       "BACKEND",
       "TYPESCRIPT"
     ]
+  },
+  {
+    "id": "e5",
+    "name": "Amanda",
+    "email": "amanda@gmail.com",
+    "specialties": [
+      "BACKEND",
+      "TYPESCRIPT"
+    ]
   }
 ]
